@@ -16,6 +16,7 @@
 }
 .logo1{
     left: 0;
+    justify-self: self-start;
 }
 .logo{
     height: 100px;
@@ -26,12 +27,14 @@
     justify-content: center;
     align-items: center;
     gap : 20px ;  
+    justify-self: center;
+    justify-content: space-between;
 }
 a{
     text-decoration: none;
 }
 .btn{
-    align-items: end;
+    justify-self: end;
 }
 button{
     background-color: rgb(44, 44, 210);
@@ -40,9 +43,29 @@ button{
     width: 100px;
     border: none;
     border-radius: 5px;
-    justify-content: end;
+    
 }
 .navbar{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.first_container{
+    height: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    
+}
+.first_container_left{
+    height: 100%;
+    width: 40%;
+}
+.first_container_right{
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
+    
 }
