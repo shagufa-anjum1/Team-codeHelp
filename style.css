@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.logo1{
+    left: 0;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.a_tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 20px ;  
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    align-items: end;
+}
+button{
+    background-color: rgb(44, 44, 210);
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    justify-content: end;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
