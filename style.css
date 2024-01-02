@@ -49,6 +49,9 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
+    
+
 }
 .first_container{
     height: 50%;
@@ -57,15 +60,42 @@ button{
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;
+    margin-top: 40px;
     
 }
 .first_container_left{
     height: 100%;
     width: 40%;
+    
+}
+h1{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 40px;
+    border-block-end:  solid;
+    writing-mode: horizontal-tb;
+}
+.h1tag{
+    height: 100px;
+}
+.desc{
+    font-size: 1.5rem;
+
 }
 .first_container_right{
     height: 100%;
     width: 40%;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: none;
     
+}
+.img1{
+   height: 100%;
+   width: 100%;
+   border-radius: 10px; 
+   filter: drop-shadow(0 0 0.75rem rgb(47, 46, 47));
+   border: none;
+   
 }
