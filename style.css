@@ -158,9 +158,31 @@ h1{
     justify-content: center;
     gap: 20px;
 }
-.button:hover{
+button:hover{
     cursor: pointer;
     background-color: whitesmoke;
     color: blue;
 
 }
+a:hover{
+    transform: scale(1.5);
+    color: whitesmoke;
+    background-color: rgb(89, 89, 250);
+    border: none;
+    border-radius: 2px;
+    width: 50px;
+}
+.logo{
+    user-select: none;
+}
+i:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    color: blue;
+}
+@media (min-width: 60em) and (orientation: landscape) {
+    
+    
+  }
+  
+
